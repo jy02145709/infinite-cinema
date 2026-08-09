@@ -10,7 +10,7 @@ The original branch ends in tragedy. The alternate branch makes one precise caus
 
 ## Current state
 
-- The comparison experience is deployed as an owner-only web demo.
+- The comparison experience is deployed as a public judging demo; paid Veo rendering remains owner-only.
 - Three short Veo clips provide the shared setup, original ending, and alternate ending.
 - The interactive path uses Gemini 2.5 Flash on Vertex AI and returns Scene DNA, three timeline beats, continuity guidance, and an AI Audience verdict in one request.
 - A Google ADK agent is separately deployed and verified on Vertex AI Agent Engine.
@@ -18,6 +18,10 @@ The original branch ends in tragedy. The alternate branch makes one precise caus
 - Veo rendering remains a separate, explicit, owner-only action with a daily limit and displayed maximum cost.
 
 Demo: <https://infinite-cinema-demo.jy02145709.chatgpt.site/?v=16>
+
+Demo video: <https://youtu.be/7quv4-HezwY>
+
+License: [MIT](LICENSE)
 
 ## Architecture
 
@@ -83,7 +87,7 @@ gcloud services enable aiplatform.googleapis.com
 
 Run the web app from `web/` or follow [agent/README.md](agent/README.md) to inspect the verified ADK workflow.
 
-## Before submission
+## Submission
 
-- Record the short demo using the fallback flow in `DEMO.md`.
+- Use the completed public demo video and the copy-ready fields in `SUBMISSION.md`.
 - Keep Veo approval disabled during judging unless a paid render is deliberately required.
