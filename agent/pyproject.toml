@@ -1,0 +1,20 @@
+[project]
+name = "infinite-cinema-agent"
+version = "0.1.0"
+description = "Google ADK and Parallel-powered canon-aware timeline agent"
+requires-python = ">=3.11"
+dependencies = [
+  "google-adk>=1.29.0",
+  "google-cloud-aiplatform[agent_engines,adk]>=1.112.0",
+  "parallel-web>=0.4.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0", "ruff>=0.9.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

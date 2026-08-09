@@ -1,0 +1,23 @@
+{
+  "name": "infinite-cinema",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check:gcp": "node --import tsx scripts/check-gcp.ts",
+    "analyze:scene": "node --import tsx scripts/analyze-scene.ts",
+    "generate:shot1": "node --import tsx scripts/generate-veo.ts",
+    "generate:shot2a": "VEO_INPUT_IMAGE=assets/shot-01-reference.png VEO_LAST_FRAME=assets/shot-02a-last-frame.png VEO_PROMPT=prompts/shot-02a.txt VEO_OUTPUT=outputs/shot-02a-original.mp4 node --import tsx scripts/generate-veo.ts",
+    "generate:shot2b": "VEO_INPUT_IMAGE=assets/shot-01-reference.png VEO_LAST_FRAME=assets/shot-02b-last-frame.png VEO_PROMPT=prompts/shot-02b.txt VEO_OUTPUT=outputs/shot-02b-alternative.mp4 node --import tsx scripts/generate-veo.ts",
+    "build:demo": "zsh scripts/build-comparison-demo.sh"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "google-auth-library": "^9.15.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

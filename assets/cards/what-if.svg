@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#070b12"/>
+  <text x="640" y="240" fill="#8499b8" font-family="Georgia, serif" font-size="34" text-anchor="middle" letter-spacing="10">WHAT IF...</text>
+  <text x="640" y="350" fill="#eee6d8" font-family="Georgia, serif" font-size="55" text-anchor="middle">JULIET WOKE UP</text>
+  <text x="640" y="425" fill="#eee6d8" font-family="Georgia, serif" font-size="55" text-anchor="middle">5 SECONDS EARLIER?</text>
+  <line x1="470" y1="486" x2="810" y2="486" stroke="#496789" stroke-width="2"/>
+</svg>

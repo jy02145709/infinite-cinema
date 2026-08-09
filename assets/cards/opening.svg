@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#070b12"/>
+  <circle cx="640" cy="350" r="245" fill="none" stroke="#24344d" stroke-width="2" opacity=".65"/>
+  <path d="M395 350h490M640 105v490" stroke="#172337" stroke-width="1" opacity=".7"/>
+  <text x="640" y="318" fill="#e8e1d4" font-family="Georgia, serif" font-size="76" text-anchor="middle" letter-spacing="9">INFINITE CINEMA</text>
+  <text x="640" y="390" fill="#8194ae" font-family="Georgia, serif" font-size="24" text-anchor="middle" letter-spacing="5">ONE MOMENT. ANOTHER TIMELINE.</text>
+</svg>
