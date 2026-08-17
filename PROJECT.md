@@ -77,7 +77,7 @@ The remote Agent Engine run has been verified. It generates the manifest with `v
 
 ## Current milestone
 
-The end-to-end concept is implemented and deployed: comparison video, interactive timeline generation, independently verified ADK + Parallel agent workflow, and AI Audience evaluation. The next milestone is submission polish and a reliable recorded demo—not additional product scope.
+The end-to-end concept is implemented and deployed: comparison video, interactive timeline generation, independently verified ADK + Parallel agent workflow, AI Audience evaluation, and a public 2:03 demo video. The remaining milestone is the Devpost form and final signed-out link verification—not additional product scope.
 
 ## Submission checklist
 
@@ -89,5 +89,8 @@ The end-to-end concept is implemented and deployed: comparison video, interactiv
 - [x] AI Audience verdict panel
 - [x] Daily quotas and visible cost guardrails
 - [x] Public judging visibility enabled
-- [ ] Record the final 90-second demo
-- [ ] Capture architecture and Agent Engine evidence for submission
+- [x] Record and publish the final demo video
+- [x] Capture architecture and Agent Engine evidence for submission
+- [x] Prepare copy-ready Devpost submission text
+- [ ] Submit the Devpost project form
+- [ ] Recheck public links in a signed-out browser
